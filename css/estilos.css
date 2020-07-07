@@ -1,0 +1,221 @@
+.contenedor{
+	
+}
+.logo{
+	width:30px;
+	height: 30px;
+}
+nav.navbar {
+    background-color: #149E9E;
+}
+
+.segunda{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+	text-align: center;
+}
+.minicuadro{
+	width: 2%;
+	height: 20px;
+	float: right;
+	padding: 60px;
+	margin: 70px;
+	text-align: center;
+}
+.iconos{
+	width: 80px;
+	height: 80px;
+
+
+}
+.titulosegunda{
+	width: 40%;
+	margin: 0px auto;
+	text-align: center;
+}
+.imagenes{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+.imagenes2{
+	width: 50%;
+	height: 500px;
+	background-color: white;
+	float: left;
+}
+.imagenes2g{
+	width: 100%;
+	height: 500px;
+}
+.cuatroimg{
+	background-color: white;
+	width: 50%;
+	height: 500px;
+	float: right;
+}
+.fotosp{
+	width: 100%;
+	height: 250px;
+}
+.img1{
+	width: 50%;
+	height: 250px;
+	background-color: white;
+	float: right;
+}
+.tercera{
+	width: 100%;
+	height: 450px;
+
+}
+.minicuadro2{
+	width: 15%;
+	height: 150px;
+	float: right;
+	margin: 100px;
+	text-align: center;
+}
+.iconosr{
+	width: 100px;
+	height: 100px;
+	
+}
+.zonar{
+	width: 100%;
+	height: 690px;
+	background-color: #59C3C3;
+
+}
+.zonav{
+	width: 100%;
+	height: 650px;
+	
+}
+
+.formulario{
+	width: 50%;
+	height: 600px;
+	background-color: #092327 opacity: 20%;
+	padding: 30px;
+	color: black;
+}
+form{
+	width: 450px;
+	margin:auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+
+}
+input{
+	width: 350px;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+	border-radius: 20px;
+}
+#boton{
+	width: 100px;
+	color: white;
+	background-color: black;
+
+}
+#boton:hover{
+	cursor: pointer;
+	color: blue;
+}
+.espacio{
+	margin: 20px;
+
+}
+footer{
+	width: 100%;
+	height: 300px;
+	background-color: #149E9E;
+}
+.redes{
+	width: 25%;
+	height: 250px;
+	float: right;
+	margin: 20px;
+
+}
+.iconosf{
+	width: 30px;
+	height: 30px;
+}.navfooter{
+	width: 50%;
+	margin: 20px;
+	float: left;
+	margin-top: 230px;
+	height: 20px; 
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #149E9E;
+	border-radius: 20px;
+	width: 50%;
+	height: 50px;
+	margin: auto;
+	float: left;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: black;
+}
+@media screen and (max-width: 1200px){
+	.imagenes{
+		display: none;
+	}
+	#myCarousel{
+		display: none;
+	}
+	.navfooter{
+		display: none;
+	}
+	.zonar{
+		display: none;
+	}
+	.zonav{
+		display: none;
+	}
+	.minicuadro{
+		width: 100%;
+		text-align: center;
+		margin: 20px;
+	}
+	.minicuadro2{
+		width: 100%;
+		text-align: center;
+	}
+	footer{
+		width: 100%
+		height: auto;
+		background-color: white;
+	}
+	.redes{
+		text-align: center;
+		width: 100%;
+
+
+	}
+}
